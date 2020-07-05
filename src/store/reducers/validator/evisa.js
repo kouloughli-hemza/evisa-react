@@ -10,7 +10,6 @@ const initState = {
 
 const evisa  = (state = initState, action) => {
     switch (action.type) {
-
         case actionTypes.START_EVISA_VALIDATOR :
             return {
                 ...state,
@@ -37,6 +36,8 @@ const evisa  = (state = initState, action) => {
                 formValid: false,
                 nextButton: false,
             };
+        case actionTypes.FINISHED_REDIRECT:
+            return initState;
         default :
             return state;
     }

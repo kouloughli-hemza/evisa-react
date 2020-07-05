@@ -1,0 +1,62 @@
+.monthly-price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.monthly-price .monthly-price__currency {
+    padding-top: 0.2em;
+    padding-right: 4px;
+    align-self: flex-start;
+}
+
+.monthly-price .monthly-price__currency, .monthly-price .monthly-price__billing-period, .monthly-price .monthly-price__price {
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+}
+
+.price {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2.3333333333em;
+    color: #212b35;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.monthly-price__price sup {
+    padding-right: 3px;
+    margin-top: 0.3em;
+    font-size: 0.3em;
+}
+
+.price sup,  .price .price__number {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.price .price__number {
+    display: block;
+    vertical-align: top;
+}
+
+.price__number_sub{
+    font-size: .4em;
+    text-align: center;
+    color: #757575;
+}

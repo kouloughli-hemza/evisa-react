@@ -1,0 +1,4 @@
+ul.Polaris-ChoiceList__Choices li {
+    display: inline-flex;
+    margin-right: 20px;
+}

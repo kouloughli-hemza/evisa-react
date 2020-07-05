@@ -1,29 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3133ff48-7a62-4249-8273-38ca9fb3a6ea" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3133ff48-7a62-4249-8273-38ca9fb3a6ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Caravane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaControlls/DatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaControlls/DropZoneEvisa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaControlls/EvisaControlls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaControlls/travellersList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/ActionsModal/ActionsModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/BasicListItem/BasicListItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/BasicListItem/BasicListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/BasicListItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/CustomerListItem/CustomerListItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/CustomerListItem/CustomerListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/CustomerListItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/EvisaDropZone/EvisaDropZone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/IndexPagination/IndexPagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/IndexPagination/IndexPagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/IndexPagination/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/SelectBoxFilter/SelectBoxFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaResources/SkeletonLoader/SkeletonLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaSteps/Step1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaSteps/Step2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaSteps/Step3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaSteps/evisaTerms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EvisaSteps/step2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/MobileNavigation/MobileNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/MobileNavigation/MobileNavigation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/Navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/TopBar/TopBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/TopBar/TopBar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/UserMenu/UserMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/UserMenu/UserMenu.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SIteFrame/SiteFrame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SIteFrame/SiteFrame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SIteFrame/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SIteFrame/themeConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SiteLayout/Layout.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SiteLayout/SiteLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Auth/LogOut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Evisa/Evisa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Evisa/evisa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/EvisaRequests/EvisaRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/EvisaRequests/EvisaRequestTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/EvisaRequests/EvisaRequests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/evisaAxios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/objectToFormData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/utility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withErrorHandling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/EvisaRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/evisa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/evisaActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/evisaData/agencies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/evisaData/evisaDestination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/evisaData/evisaSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/evisaData/evisaType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/evisaData/nationality.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/evisaRequests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/validators/evisa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/validators/traveller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/EvisaRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/evisa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/evisaActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/evisaData/agencies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/evisaData/destinations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/evisaData/evisaSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/evisaData/evisaTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/evisaData/nationalities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/evisaRequests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/validator/evisa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/validator/traveller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1T9pU6xhVudAUtu6yHtUaXfvV8R" />
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path" value="node" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1T9pU6xhVudAUtu6yHtUaXfvV8R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/components/evisaResource" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/Layout/Navigation" />
+      <recent name="$PROJECT_DIR$/src/components/Layout" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,8 +167,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572882178408</updated>
-      <workItem from="1572882185740" duration="347000" />
+      <workItem from="1572882185740" duration="3258000" />
+      <workItem from="1572975439671" duration="47882000" />
+      <workItem from="1573314292488" duration="11792000" />
+      <workItem from="1573343658959" duration="29160000" />
+      <workItem from="1573566853790" duration="20006000" />
+      <workItem from="1573660985087" duration="56851000" />
+      <workItem from="1574085680146" duration="8014000" />
+      <workItem from="1574106074617" duration="93382000" />
+      <workItem from="1574639501500" duration="2944000" />
+      <workItem from="1574795921005" duration="1038000" />
+      <workItem from="1574874739831" duration="7813000" />
+      <workItem from="1575207972073" duration="7959000" />
+      <workItem from="1589082060296" duration="169000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="467" y="205" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575213204025">
+      <screen x="41" y="24" width="1325" height="744" />
+    </state>
+    <state x="467" y="205" key="#com.intellij.fileTypes.FileTypeChooser/41.24.1325.744@41.24.1325.744" timestamp="1575213204025" />
   </component>
 </project>
